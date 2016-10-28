@@ -1,4 +1,44 @@
-<!DOCTYPE HTML> 
+<!DOCTYPE html> 
+<html>
 <head>
 	<title>Week 4 Game</title>	
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.1.1.min.js"></script>
+  <script type="text/javascript" src="game.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
 </head>
+
+<body>
+  <div id="gameTitle">
+    <h1>Crystals Collector</h1>
+  </div>
+
+  <div id="explanation">
+    <p>You will be given a random number at the start of the game.</p>
+
+    <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your score</p>
+
+    <p>You win the game by matching your total score to the random number, you lose the game if your total score goes above the random number</p>
+
+    <p>The value of each crystal is hidden from you until you click on it</p>
+
+	<p>Each time the game starts the value of the crystals will be changed</p>
+
+  </div>
+
+  <img id="blue" src="assets/Images/blue.png">
+  <img id="green" src="assets/Images/green.png">
+  <img id="red" src="assets/Images/red.png">
+  <img id="yellow" src="assets/Images/yellow.png">
+  
+  <div id="score">
+    <p>Your total score is:</p>
+  </div>
+
+  <div id="wins">Wins:</div>
+  <div id="losses">Losses:</div>
+
+
+</body>
+</html>
