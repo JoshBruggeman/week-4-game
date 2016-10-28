@@ -1,0 +1,45 @@
+body {
+	background-image: url ("../background_img.jpg");
+}
+
+#explanation {
+	border: 1px black solid;
+	width:416px;
+	margin-bottom:10px;
+	border: 1px black solid;
+	background-color: #fbe6cd;
+}
+
+p {
+	color:green;
+}
+
+#gameTitle {
+	color:white;
+	background-color:#ca722a;
+	border: 1px black solid;
+	width:416px;
+	margin-bottom:10px;
+}
+
+.jewelStyle {
+	border: 1px black solid; 
+	height:100px;
+	width:100px;
+}
+
+#wlCount {
+	background-color:#4afdfe;
+	color:#39beb6;
+	border: 1px black solid;
+	margin-bottom:10px;
+	width:126px;
+	margin-top:10px;
+}
+
+#total {
+	background-color:#5bc980;
+	border: 1px #5bc980 solid;
+	height:64px;
+	width:126px;
+}
